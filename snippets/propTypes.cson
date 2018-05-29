@@ -1,5 +1,21 @@
 '.source.js, .source.jsx, .source.ts, .source.tsx':
 
+  'React static defaultProps = { ... }':
+    'prefix': 'dp'
+    'body': """
+      static defaultProps = {
+        ${1}
+      };
+    """
+
+  'React static propTypes = { ... }':
+    'prefix': 'pt'
+    'body': """
+      static propTypes = {
+        ${1}
+      };
+    """
+
   # PropType array
   'PropTypes.array':
     'prefix': 'pta'

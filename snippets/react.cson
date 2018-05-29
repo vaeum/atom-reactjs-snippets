@@ -24,14 +24,14 @@
       import React, { Component } from 'react';
     """
 
-  "import React with PropTypes":
+  "import React and PropTypes":
     'prefix': "imrp"
     'body': """
       import React from 'react';
       import PropTypes from 'prop-types';
     """
 
-  'import React, { Component } with PropTypes':
+  'import React, { Component } and PropTypes':
     'prefix': 'imrcp'
     'body': """
       import React, { Component } from 'react';
@@ -50,37 +50,21 @@
       this.state${1}
     """
 
-  'React static defaultProps = { ... } (ES7)':
-    'prefix': 'dp'
-    'body': """
-      static defaultProps = {
-        ${1}
-      };
-    """
-
-  'React static propTypes = { ... } (ES7)':
-    'prefix': 'pt'
-    'body': """
-      static propTypes = {
-        ${1}
-      };
-    """
-
   'React Component':
     'prefix': 'rc'
     'body': """
-        import React from 'react';
-        class $1 extends React.Component {
-          render() {
-            return (
-              <div>
-                <h1>$1 Component</h1>
-              </div>
-            );
-          }
+      import React from 'react';
+      class $1 extends React.Component {
+        render() {
+          return (
+            <div>
+              <h1>$1 Component</h1>
+            </div>
+          );
         }
-        export default ${1};
-      """
+      }
+      export default ${1};
+    """
 
   'React Stateless Component':
     'prefix': 'rsc'
@@ -95,8 +79,18 @@
   'React Constructor':
     'prefix': 'rcon'
     'body': """
-        constructor(props) {
-          super(props);
-          this.state = {$1};
-        }
+      constructor(props) {
+        super(props);
+        this.state = {$1};
+      }
+    """
+
+  'React Constructor':
+    'prefix': 'ren'
+    'body': """
+      render() {
+        return (
+          <div></div>
+        );
+      }
     """
