@@ -1,0 +1,13 @@
+'.source.js, .source.jsx, .source.ts, .source.tsx':
+
+  "ES6: export":
+    'prefix': "ex"
+    'body': """
+      export ${1};
+    """
+
+  "ES6: export default":
+    'prefix': "exd"
+    'body': """
+      export default ${1};
+    """
