@@ -1,0 +1,154 @@
+'.source.js, .source.jsx, .source.ts, .source.tsx':
+  
+  'import React':
+    'prefix': 'imr'
+    'body': "import React from 'react';"
+
+  'import ReactDom':
+    'prefix': 'imrd'
+    'body': "import ReactDom from 'react-dom';"
+
+  "import React with PropTypes":
+    'prefix': "imrp"
+    'body': """
+      import React from 'react';
+      import PropTypes from 'prop-types';
+    """
+
+  "import PropTypes":
+    'prefix': "impt"
+    'body': "import PropTypes from 'prop-types';"
+
+  'import React, { Component }':
+    'prefix': 'imrc'
+    'body': "import React, { Component } from 'react';"
+
+  'import React, { Component } with PropTypes':
+    'prefix': 'imrcp'
+    'body': """
+      import React, { Component } from 'react';
+      import PropTypes from 'prop-types';
+    """
+
+  "React: export":
+    'prefix': "ex"
+    'body': "export ${1};"
+
+  "React: export default":
+    'prefix': "exd"
+    'body': "export default ${1};"
+
+  'React componentWillMount (ES7)':
+    'prefix': 'cwm'
+    'body': """
+      componentWillMount() {
+        ${1}
+      }
+    """
+
+  'React componentDidMount (ES7)':
+    'prefix': 'cdm'
+    'body': """
+      componentDidMount() {
+        ${1}
+      }
+    """
+
+  'React componentWillReceiveProps (ES7)':
+    'prefix': 'cwrp'
+    'body': """
+      componentWillReceiveProps(nextProps) {
+        ${1}
+      }
+    """
+
+  'React shouldComponentUpdate (ES7)':
+    'prefix': 'scu'
+    'body': """
+      shouldComponentUpdate(nextProps, nextState) {
+        ${1}
+      }
+    """
+
+  'React componentWillUpdate (ES7)':
+    'prefix': 'cwu'
+    'body': """
+      componentWillUpdate(nextProps, nextState) {
+        ${1}
+      }
+    """
+
+  'React componentDidUpdate (ES7)':
+    'prefix': 'cdu'
+    'body': """
+      componentDidUpdate(prevProps, prevState) {
+        ${1}
+      }
+    """
+
+  'React componentWillUnmount (ES7)':
+    'prefix': 'cwun'
+    'body': """
+      componentWillUnmount() {
+        ${1}
+      }
+    """
+
+  'React this.props':
+    'prefix': 'props'
+    'body': 'this.props${1}'
+
+  'React this.state':
+    'prefix': 'state'
+    'body': 'this.state${1}'
+
+  'React static defaultProps = { ... } (ES7)':
+    'prefix': 'dp'
+    'body': """
+      static defaultProps = {
+        ${1}
+      };
+    """
+
+  'React static propTypes = { ... } (ES7)':
+    'prefix': 'pt'
+    'body': """
+      static propTypes = {
+        ${1}
+      };
+    """
+
+  'React Component':
+    'prefix': 'rc'
+    'body': """
+        import React from 'react';
+        class $1 extends React.Component {
+          render() {
+            return (
+              <div>
+                <h1>$1 Component</h1>
+              </div>
+            );
+          }
+        }
+        export default ${1};
+      """
+
+  'React Stateless Component':
+    'prefix': 'rsc'
+    'body': """
+      import React from 'react';
+      const ${1} = (props) => (
+        return()
+      );
+      export default ${1};
+    """
+
+  'React Constructor':
+    'prefix': 'rcon'
+    'body': """
+        constructor(props) {
+          super(props);
+          this.state = {$1};
+        }
+    """

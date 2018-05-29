@@ -1,0 +1,85 @@
+'.source.js, .source.jsx, .source.ts, .source.tsx':
+  
+  'Redux Reducer':
+    'prefix': 'rrd'
+    'body': """
+        export default (state = INITIAL_STATE, action) => {
+          switch(action.type) {
+            case ${1}:
+            default:
+              return state;
+          }
+        }
+    """
+
+  "Redux: class skeleton":
+    'prefix': "rcdx"
+    'body': """
+      import React from 'react';
+      import PropTypes from 'prop-types';
+      import { connect } from 'react-redux';
+
+      export class ${1} extends React.Component {
+        static propTypes = {
+          dispatch: PropTypes.func.isRequired
+        };
+
+        static defaultProps = {};
+
+        render() {
+          return <div />;
+        }
+      }
+
+      export const mapStateToProps = (state, ownProps) => {
+        return {
+
+        }
+      }
+
+      export const mapDispatchToProps = (dispatch) => {
+        return {
+          dispatch
+        }
+      }
+
+      export default connect(mapStateToProps, mapDispatchToProps)(${1});
+    """
+
+  "Redux: middleware skeleton":
+    'prefix': "rxm"
+    'body': """
+      export default ({dispatch, getState}) => (next) => (action) => {
+        next(action);
+      }
+    """
+
+  "Redux: reducer skeleton":
+    'prefix': "rxr"
+    'body': """
+      export default (state = {}, action = {}) => {
+        return state;
+      }
+    """
+
+  "Redux: mapStateToProps":
+    'prefix': "rxms"
+    'body': """
+      export const mapStateToProps = (state) => {
+        return {}
+      }
+    """
+
+  "Redux: mapDispatchToProps":
+    'prefix': "rxmd"
+    'body': """
+      export const mapDispatchToProps = (dispatch) => {
+        return {
+          dispatch,
+        }
+      }
+    """
+
+  "Redux: connect":
+    'prefix': "rxc"
+    'body': "export default connect(mapStateToProps, mapDispatchToProps)(${1});"
