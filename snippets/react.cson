@@ -85,7 +85,7 @@
       }
     """
 
-  'React Constructor':
+  'React Render':
     'prefix': 'ren'
     'body': """
       render() {
