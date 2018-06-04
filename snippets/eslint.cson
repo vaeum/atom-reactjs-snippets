@@ -1,0 +1,21 @@
+'.source.js, .source.jsx':
+
+  "eslint: disable rule next line":
+    'prefix': "edrn"
+    'body': """
+      /* eslint-disable-next-line ${1} */
+    """
+
+  "eslint: disable rule line":
+    'prefix': "edr"
+    'body': """
+      // eslint-disable-line ${1}
+    """
+    
+  "eslint: disable":
+    'prefix': "edis"
+    'body': """
+      /* eslint-disable */
+      ${1}
+      /* eslint-enable */
+    """
