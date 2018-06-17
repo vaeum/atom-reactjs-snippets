@@ -20,7 +20,7 @@
       /* eslint-enable */
     """
 
-    "eslint: disable":
+  "eslint: disable":
     'prefix': "ed"
     'body': """
       /* eslint-disable ${1} */
