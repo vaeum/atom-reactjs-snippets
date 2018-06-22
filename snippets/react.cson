@@ -38,19 +38,42 @@
       import PropTypes from 'prop-types';
     """
 
-  'React this.props':
+  'React: this.props':
     'prefix': 'props'
     'body': """
       this.props${1}
     """
 
-  'React this.state':
+  'React: this.state':
     'prefix': 'state'
     'body': """
       this.state${1}
     """
 
-  'React Component':
+  'React: setState (object)':
+    'prefix': 'rss'
+    'body': """
+    this.setState({${1}});
+    """
+
+  'React: setState (function)':
+    'prefix': 'rssf'
+    'body': """
+      this.setState((prevState, props) => {
+        return {${1}};
+      });
+    """
+
+  'React: setState (optional callback)':
+    'prefix': 'rssfc'
+    'body': """
+      this.setState(
+        (prevState, props) => ({${1}}),
+        ${2}
+      );
+    """
+
+  'React: Component':
     'prefix': 'rc'
     'body': """
       import React from 'react';
@@ -66,7 +89,7 @@
       export default ${1};
     """
 
-  'React Stateless Component':
+  'React: Stateless Component':
     'prefix': 'rsc'
     'body': """
       import React from 'react';
@@ -76,7 +99,7 @@
       export default ${1};
     """
 
-  'React Constructor':
+  'React: Constructor':
     'prefix': 'rcon'
     'body': """
       constructor(props) {
@@ -85,7 +108,7 @@
       }
     """
 
-  'React Render':
+  'React: render':
     'prefix': 'ren'
     'body': """
       render() {

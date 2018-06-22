@@ -21,6 +21,9 @@ The **⇥** means the `TAB` key
 | `imrcp⇥` | import React, Component, PropTypes |
 | `props⇥` | this.props                         |
 | `state⇥` | this.state                         |
+|   `rss⇥` | setState (object)                  |
+|  `rssf⇥` | setState (function)                |
+| `rssfc⇥` | setState (optional callback)       |
 |    `rc⇥` | simple React Component             |
 |   `rsc⇥` | simple React Stateless Component   |
 |  `rcon⇥` | React Constructor                  |
