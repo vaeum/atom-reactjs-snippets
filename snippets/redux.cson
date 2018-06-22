@@ -1,6 +1,6 @@
 '.source.js, .source.jsx, .source.ts, .source.tsx':
-  
-  'Redux Reducer':
+
+  'Redux: Reducer':
     'prefix': 'rrd'
     'body': """
         export default (state = INITIAL_STATE, action) => {
