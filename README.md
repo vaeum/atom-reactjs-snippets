@@ -32,17 +32,27 @@ The **⇥** means the `TAB` key
 |   `ex⇥` | export         |
 |  `exd⇥` | export default |
 
+#### React Router
+
+|    Trigger | Content                                    |
+| ---------: | ------------------------------------------ |
+|    `push⇥` | import push action from React Router Redux |
+|     `iml⇥` | Router: import Link                        |
+|    `imnl⇥` | Router: import Navlink                     |
+|    `link⇥` | Router: Link                               |
+| `navlink⇥` | Router: NavLink                            |
+
 #### Redux
 
 | Trigger | Content                    |
 | ------: | -------------------------- |
-|   `rrd⇥` | Redux: Reducer             |
-|  `rcdx⇥` | Redux: class skeleton      |
-|   `rxm⇥` | Redux: middleware skeleton |
-|   `rxr⇥` | Redux: reducer skeleton    |
-|  `rxms⇥` | Redux: mapStateToProps     |
-|  `rxmd⇥` | Redux: mapDispatchToProps  |
-|   `rxc⇥` | Redux: connect             |
+|  `rrd⇥` | Redux: Reducer             |
+| `rcdx⇥` | Redux: class skeleton      |
+|  `rxm⇥` | Redux: middleware skeleton |
+|  `rxr⇥` | Redux: reducer skeleton    |
+| `rxms⇥` | Redux: mapStateToProps     |
+| `rxmd⇥` | Redux: mapDispatchToProps  |
+|  `rxc⇥` | Redux: connect             |
 
 #### React lifecycle
 
