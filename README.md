@@ -2,6 +2,8 @@
 
 [![apm](https://img.shields.io/apm/v/reactjs-snippets.svg)](https://atom.io/packages/reactjs-snippets)
 
+Snippets of React, Redux, Eslint, ES6 for [Atom](https://atom.io/) editor
+
 ### Snippets
 
 The **⇥** means the `TAB` key
