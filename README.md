@@ -1,5 +1,7 @@
 # reactjs-snippets
 
+[![apm](https://img.shields.io/apm/v/reactjs-snippets.svg)](https://atom.io/packages/reactjs-snippets)
+
 ### Snippets
 
 The **⇥** means the `TAB` key
