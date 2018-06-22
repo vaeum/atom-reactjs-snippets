@@ -1,13 +1,13 @@
 '.source.js, .source.jsx':
 
   "eslint: disable rule next line":
-    'prefix': "edrn"
+    'prefix': "ednl"
     'body': """
       /* eslint-disable-next-line ${1} */
     """
 
   "eslint: disable rule line":
-    'prefix': "edr"
+    'prefix': "edl"
     'body': """
       /* eslint-disable-line ${1} */
     """
