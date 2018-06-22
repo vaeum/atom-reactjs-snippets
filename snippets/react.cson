@@ -117,3 +117,37 @@
         );
       }
     """
+
+  'React: Children map':
+    'prefix': 'rcm'
+    'body': """
+      React.Children.map(this.props.children, (child, i) => {
+        return ${1};
+      })
+    """
+
+  'React: Children forEach':
+    'prefix': 'rcfe'
+    'body': """
+      React.Children.forEach(this.props.children, (child, i) => {
+        ${1}
+      })
+    """
+
+  'React: Children count':
+    'prefix': 'rcc'
+    'body': """
+      React.Children.count(this.props.children);
+    """
+
+  'React: Children only':
+    'prefix': 'rco'
+    'body': """
+      React.Children.only(this.props.children);
+    """
+
+  'React: Children toArray':
+    'prefix': 'rcta'
+    'body': """
+      React.Children.toArray(this.props.children)
+    """

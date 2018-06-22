@@ -24,10 +24,15 @@ The **⇥** means the `TAB` key
 |   `rss⇥` | setState (object)                  |
 |  `rssf⇥` | setState (function)                |
 | `rssfc⇥` | setState (optional callback)       |
+|   `rcm⇥` | Children map                       |
+|  `rcfe⇥` | Children forEach                   |
+|   `rcc⇥` | Children count                     |
+|   `rco⇥` | Children only                      |
+|  `rcta⇥` | Children toArray                   |
 |    `rc⇥` | simple React Component             |
 |   `rsc⇥` | simple React Stateless Component   |
 |  `rcon⇥` | React Constructor                  |
-|   `ren⇥` | React Render                       |
+|   `ren⇥` | React render                       |
 
 #### ES6
 
