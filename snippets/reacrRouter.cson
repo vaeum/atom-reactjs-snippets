@@ -1,21 +1,31 @@
 '.source.js, .source.jsx, .source.ts, .source.tsx':
 
   "Router: push":
-    'prefix': "push"
-    'body': "import { push } from 'react-router-redux'"
+    prefix: 'push'
+    body: """
+      import { push } from 'react-router-redux'
+    """
 
   "Router: import Link":
-    'prefix': "iml"
-    'body': "import { Link } from 'react-router-dom'"
+    prefix: "iml"
+    body: """
+      import { Link } from 'react-router-dom'
+    """
 
   "Router: import Navlink":
-    'prefix': "imnl"
-    'body': "import { NavLink } from 'react-router-dom'"
+    prefix: "imnl"
+    body: """
+      import { NavLink } from 'react-router-dom'
+    """
 
   "Router: Link":
-    'prefix': "link"
-    'body': '<Link to="${1}">${2}</Link>'
+    prefix: "link"
+    body: """
+      <Link to="${1}">${2}</Link>
+    """
 
   "Router: NavLink":
-    'prefix': "navlink"
-    'body': '<NavLink to="${1}">${2}</NavLink>'
+    prefix: "navlink"
+    body: """
+      <NavLink to="${1}">${2}</NavLink>
+    """

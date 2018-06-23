@@ -1,80 +1,80 @@
 '.source.js, .source.jsx, .source.ts, .source.tsx':
 
   'React: componentWillMount':
-    'prefix': 'cwm'
-    'body': """
+    prefix: 'cwm'
+    body: """
       componentWillMount() {
         ${1}
       }
     """
 
   'React: componentDidMount':
-    'prefix': 'cdm'
-    'body': """
+    prefix: 'cdm'
+    body: """
       componentDidMount() {
         ${1}
       }
     """
 
   'React: componentWillReceiveProps':
-    'prefix': 'cwrp'
-    'body': """
+    prefix: 'cwrp'
+    body: """
       componentWillReceiveProps(nextProps) {
         ${1}
       }
     """
 
   'React: shouldComponentUpdate':
-    'prefix': 'scu'
-    'body': """
+    prefix: 'scu'
+    body: """
       shouldComponentUpdate(nextProps, nextState) {
         ${1}
       }
     """
 
   'React: componentWillUpdate':
-    'prefix': 'cwu'
-    'body': """
+    prefix: 'cwu'
+    body: """
       componentWillUpdate(nextProps, nextState) {
         ${1}
       }
     """
 
   'React: componentDidUpdate':
-    'prefix': 'cdu'
-    'body': """
+    prefix: 'cdu'
+    body: """
       componentDidUpdate(prevProps, prevState) {
         ${1}
       }
     """
 
   'React: componentWillUnmount':
-    'prefix': 'cwun'
-    'body': """
+    prefix: 'cwun'
+    body: """
       componentWillUnmount() {
         ${1}
       }
     """
 
   'React: getDerivedStateFromProps':
-    'prefix': 'gdsfp'
-    'body': """
+    prefix: 'gdsfp'
+    body: """
       getDerivedStateFromProps(props, state) {
         ${1}
       }
     """
 
   'React: getSnapshotBeforeUpdate':
-    'prefix': 'gsbu'
-    'body': """
+    prefix: 'gsbu'
+    body: """
       getSnapshotBeforeUpdate(prevProps, prevState) {
         ${1}
       }
     """
 
   'React: componentDidCatch':
-    'prefix': 'cdc'
-    'body': """
+    prefix: 'cdc'
+    body: """
       componentDidCatch(error, info) {
         ${1}
       }
