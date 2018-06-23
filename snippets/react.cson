@@ -1,72 +1,72 @@
 '.source.js, .source.jsx, .source.ts, .source.tsx':
 
   'import React':
-    'prefix': 'imr'
-    'body': """
+    prefix: 'imr'
+    body: """
       import React from 'react';
     """
 
   'import ReactDom':
-    'prefix': 'imrd'
-    'body': """
+    prefix: 'imrd'
+    body: """
       import ReactDom from 'react-dom';
     """
 
   "import PropTypes":
-    'prefix': "impt"
-    'body': """
+    prefix: "impt"
+    body: """
       import PropTypes from 'prop-types';
     """
 
   'import React, { Component }':
-    'prefix': 'imrc'
-    'body': """
+    prefix: 'imrc'
+    body: """
       import React, { Component } from 'react';
     """
 
   "import React and PropTypes":
-    'prefix': "imrp"
-    'body': """
+    prefix: "imrp"
+    body: """
       import React from 'react';
       import PropTypes from 'prop-types';
     """
 
   'import React, { Component } and PropTypes':
-    'prefix': 'imrcp'
-    'body': """
+    prefix: 'imrcp'
+    body: """
       import React, { Component } from 'react';
       import PropTypes from 'prop-types';
     """
 
   'React: this.props':
-    'prefix': 'props'
-    'body': """
+    prefix: 'props'
+    body: """
       this.props${1}
     """
 
   'React: this.state':
-    'prefix': 'state'
-    'body': """
+    prefix: 'state'
+    body: """
       this.state${1}
     """
 
   'React: setState (object)':
-    'prefix': 'rss'
-    'body': """
-    this.setState({${1}});
+    prefix: 'rss'
+    body: """
+      this.setState({${1}});
     """
 
   'React: setState (function)':
-    'prefix': 'rssf'
-    'body': """
+    prefix: 'rssf'
+    body: """
       this.setState((prevState, props) => {
         return {${1}};
       });
     """
 
   'React: setState (optional callback)':
-    'prefix': 'rssfc'
-    'body': """
+    prefix: 'rssfc'
+    body: """
       this.setState(
         (prevState, props) => ({${1}}),
         ${2}
@@ -74,8 +74,8 @@
     """
 
   'React: Component':
-    'prefix': 'rc'
-    'body': """
+    prefix: 'rc'
+    body: """
       import React from 'react';
       class $1 extends React.Component {
         render() {
@@ -90,8 +90,8 @@
     """
 
   'React: Stateless Component':
-    'prefix': 'rsc'
-    'body': """
+    prefix: 'rsc'
+    body: """
       import React from 'react';
       const ${1} = (props) => {
         return()
@@ -100,8 +100,8 @@
     """
 
   'React: Constructor':
-    'prefix': 'rcon'
-    'body': """
+    prefix: 'rcon'
+    body: """
       constructor(props) {
         super(props);
         this.state = {$1};
@@ -109,8 +109,8 @@
     """
 
   'React: render':
-    'prefix': 'ren'
-    'body': """
+    prefix: 'ren'
+    body: """
       render() {
         return (
           <div></div>
@@ -119,35 +119,35 @@
     """
 
   'React: Children map':
-    'prefix': 'rcm'
-    'body': """
+    prefix: 'rcm'
+    body: """
       React.Children.map(this.props.children, (child, i) => {
         return ${1};
       })
     """
 
   'React: Children forEach':
-    'prefix': 'rcfe'
-    'body': """
+    prefix: 'rcfe'
+    body: """
       React.Children.forEach(this.props.children, (child, i) => {
         ${1}
       })
     """
 
   'React: Children count':
-    'prefix': 'rcc'
-    'body': """
+    prefix: 'rcc'
+    body: """
       React.Children.count(this.props.children);
     """
 
   'React: Children only':
-    'prefix': 'rco'
-    'body': """
+    prefix: 'rco'
+    body: """
       React.Children.only(this.props.children);
     """
 
   'React: Children toArray':
-    'prefix': 'rcta'
-    'body': """
+    prefix: 'rcta'
+    body: """
       React.Children.toArray(this.props.children)
     """

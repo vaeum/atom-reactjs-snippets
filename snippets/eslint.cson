@@ -1,27 +1,27 @@
 '.source.js, .source.jsx':
 
   "eslint: disable rule next line":
-    'prefix': "ednl"
-    'body': """
+    prefix: "ednl"
+    body: """
       /* eslint-disable-next-line ${1} */
     """
 
   "eslint: disable rule line":
-    'prefix': "edl"
-    'body': """
+    prefix: "edl"
+    body: """
       /* eslint-disable-line ${1} */
     """
 
   "eslint: disable block":
-    'prefix': "edb"
-    'body': """
+    prefix: "edb"
+    body: """
       /* eslint-disable */
       ${1}
       /* eslint-enable */
     """
 
   "eslint: disable":
-    'prefix': "ed"
-    'body': """
+    prefix: "ed"
+    body: """
       /* eslint-disable ${1} */
     """
