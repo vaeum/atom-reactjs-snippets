@@ -1,6 +1,8 @@
 # reactjs-snippets
 
 [![apm](https://img.shields.io/apm/v/reactjs-snippets.svg)](https://atom.io/packages/reactjs-snippets)
+[![apm](https://img.shields.io/apm/dm/reactjs-snippets.svg)](https://atom.io/packages/reactjs-snippets)
+[![apm](https://img.shields.io/apm/l/reactjs-snippets.svg)](https://atom.io/packages/reactjs-snippets)
 [![apm](https://img.shields.io/badge/edit-prose.io-blue.svg)](http://prose.io/#vaeum/reactjs-snippets)
 
 Snippets of React, Redux, Eslint, ES6 for [Atom](https://atom.io/) editor
