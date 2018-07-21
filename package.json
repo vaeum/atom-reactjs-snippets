@@ -2,6 +2,9 @@
   "name": "reactjs-snippets",
   "version": "0.1.1",
   "description": "React / Redux snippets (ES5/6/6+)",
+  "scripts": {
+    "test": "gulp"
+  },
   "keywords": [
     "react",
     "redux",
@@ -16,5 +19,9 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-lintspaces": "^1.0.0"
+  }
 }

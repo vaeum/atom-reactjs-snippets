@@ -4,6 +4,7 @@
 [![apm](https://img.shields.io/apm/dm/reactjs-snippets.svg)](https://atom.io/packages/reactjs-snippets)
 [![apm](https://img.shields.io/apm/l/reactjs-snippets.svg)](https://atom.io/packages/reactjs-snippets)
 [![apm](https://img.shields.io/badge/edit-prose.io-blue.svg)](http://prose.io/#vaeum/reactjs-snippets)
+[![Build Status](https://travis-ci.org/vaeum/atom-reactjs-snippets.svg?branch=master)](https://travis-ci.org/vaeum/atom-reactjs-snippets)
 
 Snippets of React, Redux, Eslint, ES6 for [Atom](https://atom.io/) editor
 
