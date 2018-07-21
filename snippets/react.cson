@@ -77,7 +77,11 @@
     prefix: 'rc'
     body: """
       import React from 'react';
+
       class $1 extends React.Component {
+        static propTypes = {};
+        static defaultProps = {};
+
         render() {
           return (
             <div>
@@ -86,6 +90,7 @@
           );
         }
       }
+
       export default ${1};
     """
 
@@ -93,9 +98,18 @@
     prefix: 'rsc'
     body: """
       import React from 'react';
+
+      const propTypes = {}
+
+      const defaultProps = {}
+
       const ${1} = (props) => {
         return()
       };
+
+      ${1}.propTypes = propTypes
+      ${1}.defaultProps = defaultProps
+
       export default ${1};
     """
 
