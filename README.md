@@ -65,6 +65,7 @@ The **⇥** means the `TAB` key
 | `rxms⇥` | Redux: mapStateToProps     |
 | `rxmd⇥` | Redux: mapDispatchToProps  |
 |  `rxc⇥` | Redux: connect             |
+| `imco⇥` | import Redux Connect       |
 
 #### React lifecycle
 

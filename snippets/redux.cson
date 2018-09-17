@@ -85,3 +85,9 @@
     body: """
       export default connect(mapStateToProps, mapDispatchToProps)(${1});
     """
+
+  "import Redux Connect":
+    prefix: "imco"
+    body: """
+      import { connect } from 'react-redux';
+    """
