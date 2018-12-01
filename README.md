@@ -36,6 +36,8 @@ The **⇥** means the `TAB` key
 |   `rsc⇥` | simple React Stateless Component   |
 |  `rcon⇥` | React Constructor                  |
 |   `ren⇥` | React render                       |
+|    `cp⇥` | Destructured props                 |
+|    `cs⇥` | Destructured state                 |
 
 #### ES6
 

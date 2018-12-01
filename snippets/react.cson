@@ -166,3 +166,15 @@
     body: """
       React.Children.toArray(this.props.children)
     """
+
+  'React: Destructured props':
+    prefix: 'cp'
+    body: """
+      const {${1}} = this.props;
+    """
+
+  'React: Destructured state':
+    prefix: 'cs'
+    body: """
+      const {${1}} = this.props;
+    """
