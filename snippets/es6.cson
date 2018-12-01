@@ -11,3 +11,9 @@
     body: """
       export default ${1};
     """
+
+  "ES6: method":
+    prefix: "met"
+    body: """
+      ${1} = (${2}) => {${3}};
+    """

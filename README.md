@@ -43,6 +43,7 @@ The **⇥** means the `TAB` key
 | ------: | -------------- |
 |   `ex⇥` | export         |
 |  `exd⇥` | export default |
+|  `met⇥` | add method     |
 
 #### React Router
 
