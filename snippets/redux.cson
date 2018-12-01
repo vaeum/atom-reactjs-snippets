@@ -65,7 +65,7 @@
   "Redux: mapStateToProps":
     prefix: "rxms"
     body: """
-      export const mapStateToProps = (state) => {
+      export const mapStateToProps = (state, ownProps) => {
         return {}
       }
     """
