@@ -176,5 +176,5 @@
   'React: Destructured state':
     prefix: 'cs'
     body: """
-      const {${1}} = this.props;
+      const {${1}} = this.state;
     """
