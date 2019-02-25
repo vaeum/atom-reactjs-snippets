@@ -1,7 +1,7 @@
 '.source.js, .source.jsx, .source.ts, .source.tsx':
 
   "Router: push":
-    prefix: 'push'
+    prefix: 'imps'
     body: """
       import { push } from 'react-router-redux'
     """

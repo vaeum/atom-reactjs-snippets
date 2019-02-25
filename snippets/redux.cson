@@ -31,13 +31,13 @@
         }
       }
 
-      export const mapStateToProps = (state, ownProps) => {
+      const mapStateToProps = (state, ownProps) => {
         return {
 
         }
       }
 
-      export const mapDispatchToProps = (dispatch) => {
+      const mapDispatchToProps = (dispatch) => {
         return {
           dispatch
         }
@@ -65,7 +65,7 @@
   "Redux: mapStateToProps":
     prefix: "rxms"
     body: """
-      export const mapStateToProps = (state, ownProps) => {
+      const mapStateToProps = (state, ownProps) => {
         return {}
       }
     """
@@ -73,10 +73,8 @@
   "Redux: mapDispatchToProps":
     prefix: "rxmd"
     body: """
-      export const mapDispatchToProps = (dispatch) => {
-        return {
-          dispatch,
-        }
+      const mapDispatchToProps = (dispatch) => {
+        return { dispatch }
       }
     """
 
